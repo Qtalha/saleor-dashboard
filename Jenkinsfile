@@ -11,7 +11,7 @@ pipeline {
         }
         stage('docker image build') {
             steps {
-                sh 'docker image build -t Qtalha/saleor-dashboar:DEV .'
+                sh 'docker image build -t qtalha/saleor-dashboar:DEV .'
             }
         }
     }
